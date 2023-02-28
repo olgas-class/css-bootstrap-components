@@ -1,0 +1,30 @@
+/* RESET */
+img {
+    max-width: 100%;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.ms_card {
+    border-radius: 0;
+}
+
+.card {
+    border-width: 4px;
+}
+
+.ms_btn-violet {
+    background-color: violet;
+}
+
+.ms_btn-violet:hover {
+    background-color: blueviolet;
+}
+
+.ms_btn-violet::before {
+    content: '!';
+}
